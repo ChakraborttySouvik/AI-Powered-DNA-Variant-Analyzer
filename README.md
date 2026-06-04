@@ -1,4 +1,4 @@
-#🧬  AI-Powered-DNA-Variant-Analyzer
+##🧬  AI-Powered-DNA-Variant-Analyzer
 
 An intelligent web application that predicts whether a genetic mutation is likely to be disease-causing or harmless using advanced genomic AI models and publicly available clinical databases.
 
