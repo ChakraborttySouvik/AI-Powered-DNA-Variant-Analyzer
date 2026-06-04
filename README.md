@@ -2,7 +2,7 @@
 
 Predict the pathogenicity of genetic mutations using advanced AI models and clinical genomic databases.
 
-![Project Screenshot](./assets/dashboard.png)
+<img width="1717" height="916" alt="kk" src="https://github.com/user-attachments/assets/758e68cd-4e85-4bde-9c93-8a744b97895a" />
 
 ## 🚀 Overview
 
@@ -112,7 +112,6 @@ http://localhost:3000
 3. AI model evaluates its potential impact.
 4. Results are compared with ClinVar records.
 5. Prediction, confidence score, and variant details are displayed.
-<img width="1717" height="916" alt="kk" src="https://github.com/user-attachments/assets/6b5e33b9-fcb2-412e-89b4-99cf205e54f6" />
 
 ## 📈 Future Enhancements
 
