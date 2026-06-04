@@ -1,42 +1,49 @@
-##🧬  AI-Powered-DNA-Variant-Analyzer
+# 🧬 AI-Powered DNA Variant Analyzer
 
-An intelligent web application that predicts whether a genetic mutation is likely to be disease-causing or harmless using advanced genomic AI models and publicly available clinical databases.
+Predict the pathogenicity of genetic mutations using advanced AI models and clinical genomic databases.
 
-## 📌 Project Overview
+![Project Screenshot](./assets/dashboard.png)
 
-Genetic mutations can significantly impact human health. Identifying whether a mutation is pathogenic or benign is an important task in genomic research and precision medicine.
+## 🚀 Overview
 
-This project combines artificial intelligence with genomic databases to provide quick and user-friendly mutation analysis through a modern web interface.
+AI-Powered DNA Variant Analyzer is a full-stack bioinformatics application that helps identify whether a DNA mutation is potentially disease-causing or benign.
+
+The application integrates genomic AI models with publicly available clinical databases to provide fast and accurate mutation analysis through an intuitive web interface.
 
 ## ✨ Features
 
-* Predict pathogenic or benign DNA variants
-* Analyze mutations using AI-based genomic models
-* Compare predictions with ClinVar classifications
-* Search variants by gene or chromosome
-* View confidence scores for predictions
-* Support for multiple genome assemblies
-* Interactive and responsive user interface
-* GPU-accelerated inference for faster results
+* 🧬 DNA mutation pathogenicity prediction
+* ⚖️ AI prediction vs ClinVar comparison
+* 📊 Confidence score generation
+* 🔍 Gene and chromosome search
+* 🌍 Genome assembly support
+* 🧪 Clinical variant exploration
+* ⚡ GPU-accelerated inference
+* 📱 Responsive modern UI
 
-## 🏗️ System Architecture
+## 🏗️ Architecture
 
+```text
 Frontend (Next.js)
-↓
+       │
+       ▼
 FastAPI Backend
-↓
-Genomic AI Model
-↓
-ClinVar & Genome APIs
+       │
+       ▼
+AI Genomic Model
+       │
+       ├── ClinVar API
+       └── UCSC Genome API
+```
 
-## 🛠️ Technology Stack
+## 🛠️ Tech Stack
 
 ### Backend
 
 * Python 3.12
 * FastAPI
 * Modal
-* Evo2 Genomic Model
+* Evo2
 * ClinVar API
 * UCSC Genome Browser API
 
@@ -48,13 +55,25 @@ ClinVar & Genome APIs
 * Tailwind CSS
 * Shadcn UI
 
-## 🚀 Installation
+## 📂 Project Structure
+
+```text
+AI-Powered-DNA-Variant-Analyzer/
+│
+├── backend/
+├── frontend/
+├── assets/
+├── README.md
+└── requirements.txt
+```
+
+## ⚙️ Installation
 
 ### Clone Repository
 
 ```bash
-git clone <your-repository-url>
-cd variant-pathogenicity-analyzer
+git clone https://github.com/your-username/AI-Powered-DNA-Variant-Analyzer.git
+cd AI-Powered-DNA-Variant-Analyzer
 ```
 
 ### Backend Setup
@@ -80,32 +99,39 @@ npm install
 npm run dev
 ```
 
-Application will be available at:
+Application will run at:
 
-```bash
+```text
 http://localhost:3000
 ```
 
-## 📊 Workflow
+## 🔬 How It Works
 
 1. Enter a DNA mutation.
-2. Submit for analysis.
-3. AI model evaluates mutation impact.
-4. Results are compared with clinical databases.
-5. Prediction and confidence score are displayed.
+2. Submit the mutation for analysis.
+3. AI model evaluates its potential impact.
+4. Results are compared with ClinVar records.
+5. Prediction, confidence score, and variant details are displayed.
+<img width="1717" height="916" alt="kk" src="https://github.com/user-attachments/assets/6b5e33b9-fcb2-412e-89b4-99cf205e54f6" />
 
-## 🎯 Future Improvements
+## 📈 Future Enhancements
 
-* Support for batch mutation analysis
-* Variant visualization dashboards
+* Batch variant analysis
+* PDF report generation
+* User authentication
+* Variant history tracking
 * Additional genomic databases
-* Downloadable analysis reports
-* User authentication and history tracking
+* Enhanced visualization tools
 
 ## 👨‍💻 Author
 
-Souvik Chakraborty
+**Souvik Chakraborty**
 
-B.Tech Computer Science Graduate
+B.Tech Computer Science Engineer
 
-Data Analytics & AI Enthusiast
+Data Analytics & Artificial Intelligence Enthusiast
+
+### Connect
+
+* GitHub: https://github.com/ChakraborttySouvik
+* LinkedIn: https://www.linkedin.com/in/souvik-chakraborty-977b74217/
